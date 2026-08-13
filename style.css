@@ -1,0 +1,79 @@
+/* Sky blue gradient background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #cceeff, #87cefa);
+    animation: fadeDown 1s ease-in-out;
+  }
+  
+  
+  /* Main container */
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 30px;
+    animation: slideUp 1s ease-out;
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+  }
+  header img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    color: #1a4b7c;
+  }
+  p {
+    color: #333;
+  }
+  
+  /* Sections */
+  section {
+    margin-top: 30px;
+  }
+  ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  /* Links */
+  a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes slideUp {
+    from {
+      transform: translateY(60px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeDown {
+    from {
+  opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
